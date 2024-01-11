@@ -23,3 +23,65 @@ print("kokku",kokku)
 mitu=int(input("Mitu kommi tahad võtta?"))
 kokku-=mitu
 print("Nüüd laua peal on",kokku,"kommi")
+#4
+ümbermõõt = float(input("kirjutage puu umbermõõt: "))
+diameeter = ümbermõõt / 3.14159
+print("Puu diameeter:", diameeter)
+#5
+N = float(input("Sisestage ristküliku pikkus N meetrites: "))
+M = float(input("Sisestage ristküliku laius M meetrites: "))
+diagonaali_pikkus = (N ** 2 + M ** 2) ** 0.5
+print("Ristküliku diagonaali pikkus on:", diagonaali_pikkus , "meetrit")
+#6
+try:
+aeg = float(input("Mitu tundi kulus sõiduks? "))
+teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
+kiirus = teepikkus / aeg
+print("sinu kiirus oli" + str(kiirus) + " km/h")
+except:
+    print("viga andmetüüb")
+#7
+numbers = [int(input("Enter a number: ")) for _ in range(5)]
+average = sum(numbers) / 5
+print("The average is:", average)
+#8
+#   @..@
+#  (----)
+#  ( \__/ )
+# ^^ "" ^^
+#9
+a=float(input("Sisestage numbrit: "))
+b = float(input("Sisestage numbrit: "))
+c = float(input("Sisestage numbrit: "))
+P = a + b + c
+print(P)
+#10
+hinnang = 12.90
+jootraha_protsent = 10
+kokku = hinnang + (hinnang * (jootraha_protsent / 100))
+igaüks_makseb = kokku / 2
+print("Igaüks peab maksma:", igaüks_makseb, "eurot")
+
+
+
+
+
+
+
+
+
+
+
+
+
+try:
+   aeg = float(input("Mitu tundi kulus sõiduks? "))
+   teepikkus = float(input("Mitu kilomeetrit sõitsid? kiirus")
+   kiirus = teepikkus/aeg
+   print("sinu kiirus oli" + str(kiirus) + " km/h")
+
+except :
+    print("viga andmetüübiga")
+
+
+    print()
