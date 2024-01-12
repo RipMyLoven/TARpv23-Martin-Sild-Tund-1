@@ -40,9 +40,7 @@ kiirus = teepikkus / aeg
 print("sinu kiirus oli" + str(kiirus) + " km/h")
 except:
     print("viga andmetüüb")
-#7
-numbers = [int(input("Enter a number: ")) for _ in range(5)]
-average = sum(numbers) / 5
+
 print("The average is:", average)
 #8
 #   @..@
